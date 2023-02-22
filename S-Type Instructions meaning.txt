@@ -1,0 +1,8 @@
+sb x1, 0(x5)
+sh x1, 0(x5) 
+sw x1, 0(x5)
+
+Meaning
+# x1 --> valueAt[x5 + 0] read byte
+# x1 --> valueAt[x5 + 0] read halfword
+# mem[x5 + offset] ←− x1 write word
